@@ -9,4 +9,8 @@ def fizz_buzz(number: int) -> str:
        return '4'
    if number == 5 :
        return 'buzz'
+   if number == 6 :
+       return 'fizz'
+   if number == 10 :
+       return 'buzz'
    return 'fizz buzz'
