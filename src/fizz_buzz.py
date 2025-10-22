@@ -19,4 +19,5 @@ def fizz_buzz(number: int) -> str:
        return 'fizz'
    if number == 13 :
        return '13'
+
    return 'fizz buzz'
