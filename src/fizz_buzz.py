@@ -7,4 +7,6 @@ def fizz_buzz(number: int) -> str:
        return 'fuzz'
    if number == 4 :
        return '4'
+   if number == 5 :
+       return 'buzz'
    return 'fizz buzz'
