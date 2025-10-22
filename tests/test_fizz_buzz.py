@@ -1,4 +1,5 @@
 import pytest
+
 from src.fizz_buzz import fizz_buzz
 
 @pytest.mark.parametrize('number, result_expected', [
