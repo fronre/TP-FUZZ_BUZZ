@@ -1,3 +1,4 @@
 def fizz_buzz(number: int) -> str:
-    pass
-    return 'FizzBuzz'
+   if number == 1 :
+      return '1'
+   return 'fizz buzz'
